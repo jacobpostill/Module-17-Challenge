@@ -20,8 +20,13 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+The Anchor is a feature of regex that allows you to determine the positions in strings. They are used so coders do not have to match the character of characters. The main components are the dollar sign ($), word boundary(/b), the caret(^), and lookaround anchors. 
+
+The caret is used to match the begining position. Whereas the dollar sign is used to find the end of a string. The word boundary is used to find positions of words. They do this by matching the position, starting with a word character and ending with a non-word character. Finally, the most advanced anchor is the lookaround anchors. They are able to look behind or after a string to see if there are any patterns (positive) or no patterns (negative).
 
 ### Quantifiers
+
+
 
 ### Grouping Constructs
 

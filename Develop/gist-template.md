@@ -27,7 +27,6 @@ The caret is used to match the begining position. Whereas the dollar sign is use
 ### Quantifiers
 Quantifiers are used to match patterns that do or not occur. This is used for finding specific data within a vast text document anmd validating input. There are four common types of regex asterisk (*), plus sign (+), question mark (?), and curly braces ({}). The asterick see if there are zero or more Matches. The plus sign see if there are one or more Matches. The question mark see if there are zero or one match. Finally, the curly braces are you to see if there is a exactly n times { n }, at least n times { n ,}, or from n to m times { n , m }.
 
-
 ### Grouping Constructs
 Grouping constructors are used to help someone groups parts in a regex, allowing someone to apply different rules to a whole group. They can also be used to capture certain parts of the matched text, which is helpful when working with a large text block. There are three main types of Grouping Constructs; Parentheses (), Square brackets [], and The pipe symbol (|). Parentheses are used to group parts of a regex expression together. The square brackets are used to match a certain set of characters, created using the brackets. Finally, the pipe symbol is used to match one, of numerous expressions.
 
@@ -38,11 +37,15 @@ Bracket Expressions are used to help created character sets and match them. Thes
 Character Classes are used to help find character sets and match them. They is extremely helpful, as when working with a large body of texts, it becomes easy to find matches and patterns. There are four main types of Character Classes; backslash (/) dot (.), caret (^), and dollar sign ($). Caret (^) and dollar sign ($) as discussed earlier are used to find the start and end of a string. The dot, exluding newline characters, is able to match single characters. Finally, the backslash is used to make sure that a character is interpreted literally and not as a special character.
 
 ### The OR Operator
+The OR Operator is used to match serveral different patterns in a regex. This is done by using the the pipe symbol (|). This could be useful when trying to match the same word that has different spellings. For example, color and colour.
 
 ### Flags
+Flags are used in regex so someone can change how that expression is interpreted. These will allow you to create better regex and analyze patterns in different ways. There are many different flags such as; i, g, m, and u. The i is used to help specify and case when looking for patterns. The g stands for global, which allows you to preform global searches of a pattern. The m stands for multiple as it allows you match text across numerous different lines. Finally, the u is used to handle unicode characters. 
 
 ### Character Escapes
 
 ## Author
-
 This gist was created by Jacob Postill. Using the link below you will be able to find his github profile. 
+
+[Github Profile](https://github.com/jacobpostill ) | 
+[My Email - postilljacob@gmail.com](mailto:postilljacob@gmail.com)

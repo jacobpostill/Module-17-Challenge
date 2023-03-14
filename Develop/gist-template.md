@@ -1,6 +1,6 @@
 # The RAG (Regex Amazing Gist) 
 
-Introductory paragraph (replace this with your text)
+In this Gist you will be able to find all the information needeed on regular expressions, otherwise known as regex. We will be going through different parts of these regex and comparing them to real regular expressions.
 
 ## Summary
 
@@ -35,6 +35,7 @@ Grouping constructors are used to help someone groups parts in a regex, allowing
 Bracket Expressions are used to help created character sets and match them. These are useful as they can help create more useful regexs and allow you to find and match more patterns, especially when working with lots of texts.There are three main types of Bracket Expressions; Square brackets [], Range brackets [-], and Negation brackets [^]. The square brackets, as discussed earlier, are used to match a certain set of characters, created using the brackets. The Range brackets [-] are used to match a specific range of characters. Finally, Negation brackets are used to find something that is not in the set.
 
 ### Character Classes
+Character Classes are used to help find character sets and match them. They is extremely helpful, as when working with a large body of texts, it becomes easy to find matches and patterns. There are four main types of Character Classes; backslash (/) dot (.), caret (^), and dollar sign ($). Caret (^) and dollar sign ($) as discussed earlier are used to find the start and end of a string. The dot, exluding newline characters, is able to match single characters. Finally, the backslash is used to make sure that a character is interpreted literally and not as a special character.
 
 ### The OR Operator
 
@@ -44,4 +45,4 @@ Bracket Expressions are used to help created character sets and match them. Thes
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This gist was created by Jacob Postill. Using the link below you will be able to find his github profile. 

@@ -43,7 +43,7 @@ The OR Operator is used to match serveral different patterns in a regex. This is
 Flags are used in regex so someone can change how that expression is interpreted. These will allow you to create better regex and analyze patterns in different ways. There are many different flags such as; i, g, m, and u. The i is used to help specify and case when looking for patterns. The g stands for global, which allows you to preform global searches of a pattern. The m stands for multiple as it allows you match text across numerous different lines. Finally, the u is used to handle unicode characters. 
 
 ### Character Escapes
-
+Character Escapes are used to help aviode special characters in regexs. The are three main type of character escapes; (\n), (\t), or (\b). (\n) is used to match characters at a new line. (\t) is used to match characters at a new tab.  (\b) is used to match characters at a new backspace. 
 ## Author
 This gist was created by Jacob Postill. Using the link below you will be able to find his github profile. 
 

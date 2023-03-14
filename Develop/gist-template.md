@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# The RAG (Regex Amazing Gist) 
 
 Introductory paragraph (replace this with your text)
 
@@ -32,6 +32,7 @@ Quantifiers are used to match patterns that do or not occur. This is used for fi
 Grouping constructors are used to help someone groups parts in a regex, allowing someone to apply different rules to a whole group. They can also be used to capture certain parts of the matched text, which is helpful when working with a large text block. There are three main types of Grouping Constructs; Parentheses (), Square brackets [], and The pipe symbol (|). Parentheses are used to group parts of a regex expression together. The square brackets are used to match a certain set of characters, created using the brackets. Finally, the pipe symbol is used to match one, of numerous expressions.
 
 ### Bracket Expressions
+Bracket Expressions are used to help created character sets and match them. These are useful as they can help create more useful regexs and allow you to find and match more patterns, especially when working with lots of texts.There are three main types of Bracket Expressions; Square brackets [], Range brackets [-], and Negation brackets [^]. The square brackets, as discussed earlier, are used to match a certain set of characters, created using the brackets. The Range brackets [-] are used to match a specific range of characters. Finally, Negation brackets are used to find something that is not in the set.
 
 ### Character Classes
 
